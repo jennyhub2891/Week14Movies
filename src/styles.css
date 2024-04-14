@@ -1,0 +1,52 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Movie styles */
+  .movie {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #0d0a0a;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie img {
+    width: 100%;
+    max-height: 1200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .movie h2 {
+    margin-top: 0;
+  }
+  
+  .movie p {
+    margin-bottom: 15px;
+  }
+  
+  .movie .reviews {
+    margin-top: 20px;
+  }
+  
+  /* Stars component styles */
+  .stars-container {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+  }
+  
+  .stars-container span {
+    color: #ffd700;
+  }
+  
